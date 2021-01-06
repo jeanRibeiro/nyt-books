@@ -1,0 +1,57 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/branco</item>
+        <item name="android:textViewStyle">@style/MyTextView</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/text_toolbar</item>
+    </style>
+
+    <style name="MyTextView">
+        <item name="android:textColor">@color/preto</item>
+    </style>
+
+    <!-- Toolbar padrao -->
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/text_toolbar</item>
+    </style>
+    <style name="appbarlayout_padrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/AppTheme.AppBarOverlay</item>
+    </style>
+    <style name="toolbar_padrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <!-- recyclerview -->
+    <style name="recyclerview_padrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/branco</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <!-- swipe -->
+    <style name="swipe_padrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- labels -->
+    <style name="label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

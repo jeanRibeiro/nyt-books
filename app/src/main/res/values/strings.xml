@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">New York Times Books</string>
+
+    <!-- books -->
+    <string name="books_title">Books</string>
+    <string name="books_detail">Books Details</string>
+
+    <!-- labels -->
+    <string name="label_titulo">Título</string>
+    <string name="label_autor">Autor</string>
+    <string name="label_descricao">Descricao</string>
+
+</resources>

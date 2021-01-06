@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Primárias e secundárias -->
+    <color name="cinza_escuro">#777777</color>
+    <color name="branco">#ffffff</color>
+    <color name="branco_transparente">#CCffffff</color>
+    <color name="cinza_EEE">#EEEEEE</color>
+    <color name="cinza_DDD">#DDDDDD</color>
+    <color name="cinza_CCC">#CCCCCC</color>
+    <color name="cinza_BBB">#BBBBBB</color>
+    <color name="cinza_AAA">#AAAAAA</color>
+    <color name="cinza_999">#999999</color>
+    <color name="cinza_888">#888888</color>
+    <color name="cinza_777">#777777</color>
+    <color name="cinza_666">#666666</color>
+    <color name="cinza_555">#555555</color>
+    <color name="cinza_444">#444444</color>
+    <color name="cinza_333">#333333</color>
+    <color name="cinza_222">#222222</color>
+    <color name="cinza_111">#111111</color>
+    <color name="preto">#000000</color>
+    <color name="campo_desabilitado">@color/cinza_DDD</color>
+
+    <!-- componentes -->
+    <color name="text_toolbar">@color/branco</color>
+</resources>
